@@ -1,0 +1,248 @@
+### Easy
+
+Challenge 1: Array Sum
+Title: Challenge 1: Array Sum
+Description: Calculate the sum of elements in an array.
+
+Input:
+arr = [1, 2, 3, 4, 5]
+
+Desired Output:
+15
+
+Incorrect Output:
+10
+
+Challenge 2: Find Maximum Element
+Title: Challenge 2: Find Maximum Element
+Description: Find the maximum element in an array.
+
+Input:
+arr = [8, 2, 10, 4, 5]
+
+Desired Output:
+10
+
+Incorrect Output:
+8
+
+Challenge 3: Linked List Implementation
+Title: Challenge 3: Linked List Implementation
+Description: Implement a singly linked list and insert elements.
+
+Input:
+linked_list = LinkedList()
+linked_list.insert(1)
+linked_list.insert(2)
+linked_list.insert(3)
+
+Desired Output:
+1 -> 2 -> 3
+
+Incorrect Output:
+1 -> 3 -> 2
+
+Challenge 4: Stack Implementation
+Title: Challenge 4: Stack Implementation
+Description: Create a stack data structure and perform push and pop operations.
+
+Input:
+stack = Stack()
+stack.push(1)
+stack.push(2)
+stack.pop()
+
+Desired Output:
+1
+
+Incorrect Output:
+2
+
+Challenge 5: Queue Implementation
+Title: Challenge 5: Queue Implementation
+Description: Implement a queue data structure and perform enqueue and dequeue operations.
+
+Input:
+queue = Queue()
+queue.enqueue(1)
+queue.enqueue(2)
+queue.dequeue()
+
+Desired Output:
+2
+
+Incorrect Output:
+1
+
+### Intermediate
+
+Challenge 6: Reverse a Linked List
+Title: Challenge 6: Reverse a Linked List
+Description: Reverse a singly linked list.
+
+Input:
+linked_list = LinkedList()
+linked_list.insert(1)
+linked_list.insert(2)
+linked_list.insert(3)
+
+Desired Output:
+3 -> 2 -> 1
+
+Incorrect Output:
+1 -> 2 -> 3
+
+Challenge 7: Hash Map Implementation
+Title: Challenge 7: Hash Map Implementation
+Description: Create a basic hash map and perform insert, retrieve, or delete operations on key-value pairs.
+
+Input:
+hash_map = HashMap()
+hash_map.insert("a", 1)
+hash_map.insert("b", 2)
+hash_map.retrieve("a")
+
+Desired Output:
+1
+
+Incorrect Output:
+2
+
+Challenge 8: Merge Sorted Arrays
+Title: Challenge 8: Merge Sorted Arrays
+Description: Merge two sorted arrays into a single sorted array.
+
+Input:
+arr1 = [1, 3, 5]
+arr2 = [2, 4, 6]
+
+Desired Output:
+[1, 2, 3, 4, 5, 6]
+
+Incorrect Output:
+[1, 3, 2, 4, 5, 6]
+
+Challenge 9: Binary Search Tree (BST) Insertion
+Title: Challenge 9: Binary Search Tree (BST) Insertion
+Description: Implement a binary search tree (BST) and insert elements.
+
+Input:
+bst = BinarySearchTree()
+bst.insert(3)
+bst.insert(1)
+bst.insert(5)
+
+Desired Output:
+  3
+ / \
+1   5
+
+Incorrect Output:
+  3
+ / \
+5   1
+
+Challenge 10: Detect Cycle in a Linked List
+Title: Challenge 10: Detect Cycle in a Linked List
+Description: Determine if a linked list contains a cycle (loop).
+
+Input:
+linked_list = LinkedList()
+linked_list.insert(1)
+linked_list.insert(2)
+linked_list.insert(3)
+
+*then cycle a node in the linked list
+
+Desired Output:
+True
+
+Incorrect Output:
+False
+
+### Hard
+
+Challenge 11: Priority Queue Implementation
+Title: Challenge 11: Priority Queue Implementation
+Description: Create a priority queue and perform insert or extract operations based on priority.
+
+Input:
+priority_queue = PriorityQueue()
+priority_queue.insert(3, "High")
+priority_queue.insert(1, "Low")
+priority_queue.extract()
+
+Desired Output:
+"High"
+
+Incorrect Output:
+"Low"
+
+Challenge 12: Shortest Path in a Graph
+Title: Challenge 12: Shortest Path in a Graph
+Description: Find the shortest path in a weighted graph using Dijkstra's algorithm.
+
+Input:
+graph = WeightedGraph()
+graph.add_edge("A", "B", 3)
+graph.add_edge("A", "C", 2)
+graph.add_edge("B", "C", 1)
+graph.add_edge("B", "D", 4)
+graph.shortest_path("A", "D")
+
+Desired Output:
+["A", "C", "B", "D"]
+
+Incorrect Output:
+["A", "B", "D"]
+
+Challenge 13: Graph Traversal (DFS)
+Title: Challenge 13: Graph Traversal (DFS)
+Description: Perform depth-first search on a graph represented as an adjacency list.
+
+Input:
+graph = Graph()
+graph.add_edge("A", "B")
+graph.add_edge("A", "C")
+graph.add_edge("B", "D")
+graph.dfs("A")
+
+Desired Output:
+["A", "B", "D", "C"]
+
+Incorrect Output:
+["A", "C", "B", "D"]
+
+Challenge 14: Balanced Binary Search Tree (AVL) Rotation
+Title: Challenge 14: Balanced Binary Search Tree (AVL) Rotation
+Description: Implement an AVL tree and perform rotations to balance the tree.
+
+Input:
+avl_tree = AVLTree()
+avl_tree.insert(3)
+avl_tree.insert(1)
+avl_tree.insert(5)
+
+Desired Output:
+  3
+ / \
+1   5
+
+Incorrect Output:
+  5
+ / \
+1   3
+
+Challenge 15: In-Place Heap Sort
+Title: Challenge 15: In-Place Heap Sort
+Description: Implement in-place Heap Sort for efficient sorting.
+
+Input:
+arr = [4, 2, 7, 1, 9, 5]
+heap_sort(arr)
+
+Desired Output:
+[1, 2, 4, 5, 7, 9]
+
+Incorrect Output:
+[9, 7, 5, 4, 2, 1]
