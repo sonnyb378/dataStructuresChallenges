@@ -1,4 +1,4 @@
-# Data Structures in Golang
+# Data Structures Challenges in Golang
 
 This project is my personal learning journey in data structures using the Go programming language. It consists of various data structure challenges, each designed to improve my understanding of data structures and their implementation in Go. While the primary goal is my personal learning, this repository can also serve as a reference for those interested in exploring data structures in the Go language.
 
