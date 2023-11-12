@@ -25,7 +25,7 @@ func (st *Stack) push(data int) {
 }
 
 func (st *Stack) pop() {
-	// remove on top of stack
+	// remove top of stack
 	if st.is_empty() {
 		fmt.Println("No Stack available")
 		return
@@ -33,9 +33,6 @@ func (st *Stack) pop() {
 
 	current := st.pointer
 	newPointer := current.next
-	for current != nil {
-		current = current.next
-	}
 	st.pointer = newPointer
 }
 
