@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/sonnyb378/dataStructuresChallenges/challenges/intermediate"
+	"github.com/sonnyb378/dataStructuresChallenges/challenges/easy"
 )
 
 func main() {
@@ -31,8 +31,8 @@ func main() {
 	// easy.LinkedListChallenge()
 
 	// fmt.Println("Challenge 4: Stack Implementation")
-	// intermediate.StackChallenge()
+	// easy.StackChallenge()
 
 	fmt.Println("Challenge 5: Queue Implementation")
-	intermediate.QueueChallenge()
+	easy.QueueChallenge()
 }

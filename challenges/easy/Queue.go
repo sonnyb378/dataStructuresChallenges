@@ -1,4 +1,4 @@
-package intermediate
+package easy
 
 import (
 	"fmt"
