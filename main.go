@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/sonnyb378/dataStructuresChallenges/challenges/easy"
+	"github.com/sonnyb378/dataStructuresChallenges/challenges/intermediate"
 )
 
 func main() {
@@ -27,6 +27,9 @@ func main() {
 	// }
 	// easy.FindMax(arr)
 
-	fmt.Println("Challenge 3: Linked List Implementation")
-	easy.LinkedListChallenge()
+	// fmt.Println("Challenge 3: Linked List Implementation")
+	// easy.LinkedListChallenge()
+
+	fmt.Println("Challenge 4: Stack Implementation")
+	intermediate.StackChallenge()
 }
