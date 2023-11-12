@@ -20,10 +20,7 @@ func (st *Stack) push(data int) {
 		st.pointer = newNode
 	} else {
 		current := st.pointer
-		for current.next != nil {
-			current = current.next
-		}
-		current.next = newNode
+		st.pointer = &SNode{data: data, next: current}
 	}
 }
 
