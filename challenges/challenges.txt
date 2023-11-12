@@ -69,10 +69,10 @@ queue.enqueue(2)
 queue.dequeue()
 
 Desired Output:
-2
+1
 
 Incorrect Output:
-1
+2
 
 ### Intermediate
 

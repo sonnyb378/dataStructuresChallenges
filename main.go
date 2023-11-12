@@ -30,6 +30,9 @@ func main() {
 	// fmt.Println("Challenge 3: Linked List Implementation")
 	// easy.LinkedListChallenge()
 
-	fmt.Println("Challenge 4: Stack Implementation")
-	intermediate.StackChallenge()
+	// fmt.Println("Challenge 4: Stack Implementation")
+	// intermediate.StackChallenge()
+
+	fmt.Println("Challenge 5: Queue Implementation")
+	intermediate.QueueChallenge()
 }
