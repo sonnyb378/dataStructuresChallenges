@@ -5,43 +5,63 @@ import (
 )
 
 type Node struct {
-	data int
-	next *Node
+	Data int
+	Next *Node
 }
 
 type LinkedList struct {
-	head *Node
+	Head *Node
 }
 
-func (list *LinkedList) insert(num int) {
-	newNode := &Node{data: num, next: nil}
+func (list *LinkedList) Insert(num int) {
+	newNode := &Node{Data: num, Next: nil}
 
-	if list.head == nil {
-		list.head = newNode
+	if list.Head == nil {
+		list.Head = newNode
 	} else {
-		current := list.head
-		for current.next != nil {
-			current = current.next
+		current := list.Head
+		for current.Next != nil {
+			current = current.Next
 		}
-		current.next = newNode
+		current.Next = newNode
 	}
 }
 
-func (list *LinkedList) print() {
+func (list *LinkedList) Print() {
 
-	if list.head == nil {
+	if list.Head == nil {
 		fmt.Println("No LinkedList found")
 		return
 	}
 
-	current := list.head
+	current := list.Head
 	for current != nil {
-		fmt.Printf("%v -> ", current.data)
-		current = current.next
+		fmt.Printf("%v -> ", current.Data)
+		current = current.Next
 	}
 
 	fmt.Printf("nil\n")
 
+}
+
+func (list *LinkedList) Reverse() {
+	if list.Head == nil {
+		fmt.Println("No LinkedList found")
+		return
+	}
+
+	var prev *Node = nil
+	current := list.Head
+	var next *Node = nil
+
+	for current != nil {
+		next = current.Next
+		current.Next = prev
+		prev = current
+		current = next
+	}
+
+	list.Head = prev
 }
 
 func LinkedListChallenge() {
@@ -63,13 +83,13 @@ func LinkedListChallenge() {
 	// 1 -> 3 -> 2
 
 	linked_list := LinkedList{}
-	linked_list.insert(1)
-	linked_list.insert(2)
-	linked_list.insert(3)
-	linked_list.insert(7)
-	linked_list.insert(8)
-	linked_list.insert(9)
+	linked_list.Insert(1)
+	linked_list.Insert(2)
+	linked_list.Insert(3)
+	linked_list.Insert(7)
+	linked_list.Insert(8)
+	linked_list.Insert(9)
 
-	linked_list.print()
+	linked_list.Print()
 
 }
