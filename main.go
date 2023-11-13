@@ -36,6 +36,9 @@ func main() {
 	// fmt.Println("Challenge 5: Queue Implementation")
 	// easy.QueueChallenge()
 
-	fmt.Println("Challenge 6: Reverse Linked List Implementation")
-	intermediate.ReverseLinkedList()
+	// fmt.Println("Challenge 6: Reverse Linked List Implementation")
+	// intermediate.ReverseLinkedList()
+
+	fmt.Println("Challenge 7: Hash Map Implementation")
+	intermediate.HashMapChallenge()
 }

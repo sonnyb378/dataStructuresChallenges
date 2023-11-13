@@ -31,7 +31,7 @@ Title: Challenge 3: Linked List Implementation
 Description: Implement a singly linked list and insert elements.
 
 Input:
-linked_list = LinkedList()
+linked_list := LinkedList{}
 linked_list.insert(1)
 linked_list.insert(2)
 linked_list.insert(3)
@@ -47,7 +47,7 @@ Title: Challenge 4: Stack Implementation
 Description: Create a stack data structure and perform push and pop operations.
 
 Input:
-stack = Stack()
+stack := Stack{}
 stack.push(1)
 stack.push(2)
 stack.pop()
@@ -63,7 +63,7 @@ Title: Challenge 5: Queue Implementation
 Description: Implement a queue data structure and perform enqueue and dequeue operations.
 
 Input:
-queue = Queue()
+queue := Queue{}
 queue.enqueue(1)
 queue.enqueue(2)
 queue.dequeue()
@@ -81,7 +81,7 @@ Title: Challenge 6: Reverse a Linked List
 Description: Reverse a singly linked list.
 
 Input:
-linked_list = LinkedList()
+linked_list := LinkedList{}
 linked_list.insert(1)
 linked_list.insert(2)
 linked_list.insert(3)
@@ -97,7 +97,7 @@ Title: Challenge 7: Hash Map Implementation
 Description: Create a basic hash map and perform insert, retrieve, or delete operations on key-value pairs.
 
 Input:
-hash_map = HashMap()
+hash_map := HashMap{}
 hash_map.insert("a", 1)
 hash_map.insert("b", 2)
 hash_map.retrieve("a")
