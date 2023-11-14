@@ -113,8 +113,8 @@ Title: Challenge 8: Merge Sorted Arrays
 Description: Merge two sorted arrays into a single sorted array.
 
 Input:
-arr1 = [1, 3, 5]
-arr2 = [2, 4, 6]
+arr1 := []int{1, 3, 5}
+arr2 := []int{2, 4, 6}
 
 Desired Output:
 [1, 2, 3, 4, 5, 6]

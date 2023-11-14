@@ -39,6 +39,13 @@ func main() {
 	// fmt.Println("Challenge 6: Reverse Linked List Implementation")
 	// intermediate.ReverseLinkedList()
 
-	fmt.Println("Challenge 7: Hash Map Implementation")
-	intermediate.HashMapChallenge()
+	// fmt.Println("Challenge 7: Hash Map Implementation")
+	// intermediate.HashMapChallenge()
+
+	fmt.Println("Challenge 8: Merge Sorted Arrays")
+	arr1 := []int{1, 4, 5, 6, 7, 12, 15, 19, 21, 56, 81, 101, 103}
+	arr2 := []int{2, 3, 8, 9, 10, 45, 53, 69, 77, 82, 88, 90, 99}
+	fmt.Println("arr1: ", arr1)
+	fmt.Println("arr2: ", arr2)
+	intermediate.MergeSortedArrays(arr1, arr2)
 }
